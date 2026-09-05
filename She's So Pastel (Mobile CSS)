@@ -1,0 +1,31 @@
+#dashboard.own::after {
+  display: none;
+}
+
+#workskin img {
+  max-width: 100%;
+  height: auto;
+}
+
+form.filters::after {
+  display: none;
+}
+
+#outer {
+  font-size: 14px;
+}
+
+.home .header h2::after {
+  font-size: .77em;
+  letter-spacing: -0.4px;
+}
+
+.wrapper:has(> table,
+> .meta) {
+  overflow: scroll;
+  scrollbar-color: #eee rgba(255, 255, 255, 0.2);
+  max-height: 150px;
+  background: rgba(235, 236, 250, 0.64);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
