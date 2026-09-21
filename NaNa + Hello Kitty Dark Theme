@@ -1,0 +1,947 @@
+#outer {
+  background: url("https://i.imgur.com/h8p1nYN.png"), radial-gradient(circle, rgba(225, 159, 199, 1) 18%, rgba(180, 101, 149, 1) 49%, rgba(76, 4, 45, 1) 81%, #130504);
+}
+
+dashboard::after {
+  content: url("https://i.imgur.com/DAU7MDR.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.home .primary .icon::after {
+  background: url(https://i.imgur.com/1kw1rvV.png);
+  background-size: 110px 110px;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px #f1edf7;
+}
+
+.primary .icon {
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #4C042D;
+}
+
+.home .header h2 {
+  text-align: right;
+  border-bottom: .75px dotted;
+  border-color: #f1edf7;
+  display: block;
+  margin-left: 100px;
+  font-size: 2.0em;
+  color: #f1edf7;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #F1FFB0;
+  -webkit-text-stroke: 1px #E19FC7;
+}
+
+.home .header h2 {
+  position: relative;
+  padding: -5px;
+}
+
+.home .header h2::after {
+  content: " wₕₒ ᵢₛ ₘy ₕₑₐᵣₜ wₐᵢₜᵢₙg fₒᵣ?‎ ";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1.em;
+  color: #fff;
+  opacity: 0.9;
+  letter-spacing: 2px;
+}
+
+.home .header ul.actions {
+  margin-bottom: 0.643em;
+  padding-top: 20px;
+}
+
+#header {
+  font-size: 1em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  padding-bottom: 20px;
+}
+
+#header .user {
+  padding: 0.429em 0 0;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+}
+
+#header .logo {
+  content: url("https://i.imgur.com/rf3A7b9.png");
+  width: 250px;
+  height: 250px;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #greeting .dropdown > a[href*="/users/"] {
+  content: url("https://i.imgur.com/P4psJSo.png");
+  width: 50px;
+  height: 50px;
+}
+
+#header #greeting .dropdown > a[href*="/works/new"] {
+  content: url("https://i.imgur.com/JqRPSBg.png");
+  width: 50px;
+  height: 50px;
+}
+
+#header #greeting a[href*="/users/logout"] {
+  content: url("https://i.imgur.com/iDyBoXP.png");
+  width: 50px;
+  height: 50px;
+}
+
+#header .dropdown > a[href="/menu/fandoms"] {
+  content: url("https://i.imgur.com/dS4BCrc.gif");
+  width: 40px;
+  height: 40px;
+}
+
+#header .dropdown > a[href="/menu/browse"] {
+  content: url("https://i.imgur.com/iJmTFZ4.gif");
+  width: 40px;
+  height: 40px;
+}
+
+#header .dropdown > a[href="/menu/search"] {
+  content: url("https://i.imgur.com/JTHW4Z1.gif");
+  width: 40px;
+  height: 40px;
+}
+
+#header .dropdown > a[href="/menu/about"] {
+  content: url("https://i.imgur.com/tRt7PGF.gif");
+  width: 40px;
+  height: 40px;
+}
+
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus {
+  color: #f1edf7;
+  text-shadow: 0 0 20px #E4DDCB, 0 0 10px #130E12;
+}
+
+#greeting .dropdown .menu a {
+  background: url("https://i.imgur.com/TviOwDm.png");
+  background-size: 50%;
+  border: transparent;
+}
+
+#header .dropdown .menu a:hover {
+  background-color: #926A73;
+  color: #f1edf7;
+}
+
+#header .dropdown .menu a {
+  background: url("https://i.imgur.com/TviOwDm.png");
+  background-size: 50%;
+  border: transparent;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .primary .dropdown:hover a {
+  background-color: rgba(225, 159, 199, 1);
+  color: #f1edf7;
+  border: none;
+}
+
+#header .primary a {
+  color: #f1edf7;
+  text-shadow: 0 0 10px #E4DDCB, 0 0 10px #130E12;
+}
+
+#header .primary {
+  background: transparent;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  box-shadow: none;
+  margin-left: -18px;
+}
+
+#header #search .text {
+  margin-left: 40px;
+  margin-top: 10px;
+  background: url(https://i.imgur.com/kEtATBW.gif);
+  background-size: 90%;
+}
+
+#header #search .button {
+  margin-left: -25px;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding: 4px;
+  background: #e19fc7;
+}
+
+#dashboard.own {
+  background: transparent;
+  border-radius: 0.25em;
+  border: none;
+}
+
+#dashboard {
+  background: rgba(19, 14, 18, 0.22 );
+  box-shadow: 0 0 13px 6px #4c042d,
+            0 0 22px 7px #e19fc7,
+            0 0 28px 7px #c686dd;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dashboard a,
+#dashboard span {
+  color: #f1edf7;
+  text-shadow: 0 0 10px #B46595, 0 0 20px #4C042D;
+}
+
+#dashboard .current {
+  background: rgba(19, 14, 18, 0.55);
+  color: #b46595;
+  text-shadow: 0 0 10px #130e12, 0 0 20px #e4ddcb;
+}
+
+#dashboard ul {
+  border: none;
+}
+
+#dashboard a:hover {
+  background: rgba(19, 14, 18, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  color: #eec1dd;
+}
+
+div#user-fandoms.fandom.listbox.group {
+  display: none;
+}
+
+fieldset fieldset dl dl {
+  background-image: none;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  display: block;
+  background-color: transparent;
+  border: 50px;
+  padding: 0em;
+  box-shadow: inset 0px 0 0px #999;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0 0px #fff;
+}
+
+.listbox li.blurb {
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.listbox .index {
+  width: auto;
+  padding: 0.643em;
+  margin: 5px;
+  float: none;
+  clear: right;
+  box-shadow: none;
+  background: transparent;
+  border: 0px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  overflow: scroll;
+  scrollbar-color: #E19FC7 rgba(76, 4, 45, 0.5);
+  max-height: 450px;
+}
+
+.listbox > .heading,
+.listbox .heading a:visited {
+  color: #af1e67;
+  font-size: 1.8em;
+  text-shadow: 0 0 20px rgb(217 84 165), 0 0 10px #efefd1;
+  -webkit-text-stroke: .3px #efd1d1;
+  font-weight: bold;
+}
+
+#dashboard_recent_reads {
+  margin-bottom: 50px;
+}
+
+.bookmark .user {
+  border: none;
+  background: url(https://i.imgur.com/e2awN7G.png) #4c042d4a;
+  background-size: 15%;
+  overflow: hidden;
+}
+
+.bookmark .user .byline {
+  margin-top: 0.375em;
+  margin-right: 5.25em;
+  display: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: none;
+  box-shadow: none;
+}
+
+form.filters {
+  background: #4c042d70;
+  box-shadow: 0 0 13px 6px #4c042d,
+            0 0 22px 7px #e19fc7,
+            0 0 28px 7px #c686dd;
+  border: none;
+  border-radius: 30px;
+}
+
+.filters dl,
+.filters dt {
+  color: #efd1d1;
+  text-shadow: 0 0 10px #e19fc7, 0 0 20px #e19fc7;
+}
+
+.filters .expander {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #e19fc7;
+}
+
+#footer .module {
+  display: none;
+}
+
+#footer {
+  background: transparent;
+  border-top: none;
+  color: #fff;
+  float: left;
+  font-size: 0.75em;
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+p {
+  color: mistyrose;
+  text-shadow: 2px 2px 4px #f13da4;
+}
+
+#workskin {
+  font-size: 1.1em;
+  background: #4c042d70;
+  padding: 20px;
+}
+
+.preface h2.title {
+  color: #e19fc7;
+  text-shadow: 2px 2px 4px #f13da4;
+  -webkit-text-stroke: .5px #fff;
+}
+
+div.preface .byline a {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(255,225,0,0.5);
+}
+
+.preface h3 {
+  color: #d7007b;
+  text-shadow: 1px 1px 10px rgba(225, 159, 199, 1);
+  -webkit-text-stroke: 1px #fff;
+  font-size: 1.5em;
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  color: #fff;
+}
+
+a:visited {
+  color: #ffd2f1;
+}
+
+.wrapper:has(> table,
+> .meta) {
+  box-shadow: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+dl.meta {
+  border: none;
+}
+
+.thread .even {
+  background: #e19fc7b3;
+}
+
+.thread .odd {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.comment div.icon,
+.comment .icon,
+.abbreviated .icon {
+  order: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  padding: 3px;
+  margin: 0;
+}
+
+li.comment {
+  border: none;
+  align-content: center;
+  align-items: stretch;
+  justify-content: flex-end;
+  box-shadow: 1px 12px 11px #fff inset,
+            5px 6px 6px #4c042d,
+            12px 11px 9px rgba(251,249,204,0.5),
+            13px 9px 12px #e19fc7;
+  border-radius: var(--icon-primary-radius);
+  margin: 20px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.comment div.icon {
+  border-radius: 50%;
+  border-color: rgba(225, 159, 199, 1);
+  box-shadow: 0 0 10px rgba(255,153,230,1),
+            0 0 20px 5px rgba(255,255,255,0.8),
+            0 0 30px 15px rgba(255,237,106,0.5);
+}
+
+.comment h4.byline {
+  background: #efd1d161;
+  line-height: 1.25;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0.1em;
+  padding: 0.5em 0.5em 0.5em 10px;
+}
+
+.datetime {
+  font-family: monospace;
+  padding-left: 5px;
+}
+
+.comment fieldset {
+  margin: 0;
+  background-color: rgb(16 14 14, 0.34);
+  border: none;
+  box-shadow: 0 0 10px #4c042d,
+            0 0 20px 5px rgba(250,84,170,0.8),
+            0 0 30px 15px #e19fc7;
+}
+
+.userstuff p,
+.userstuff details {
+  margin: 1.286em auto;
+  padding: 10px;
+}
+
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.secondary form {
+  border: none;
+  background-color: rgb(16 14 14, 0.34);
+  box-shadow: 0 0 10px #4c042d,
+            0 0 20px 5px rgba(250,84,170,0.8),
+            0 0 30px 15px #e19fc7;
+}
+
+.toggled form,
+.dynamic form {
+  padding: 0.5em;
+  border: 2px solid #4c042d;
+  background: rgb(0 0 0, .56);
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.1) inset,
+            3px 3px 10px rgba(0,0,0,0.2) inset;
+}
+
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.secondary form {
+  border: none;
+  background: #2f0b20;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  min-height: 12em;
+  background: url(https://i.imgur.com/hsMxuwe.png) #e19fc7;
+  background-size: 25%;
+}
+
+p.kudos {
+  display: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type=“submit”],
+button,
+.actions label {
+  background: #e19fc791;
+  color: #4c042d;
+  font-size: 100%;
+  border: 1px solid #ffffff4d;
+  border-radius: 12px;
+  box-shadow: 0 0 15px .5px #efabd87d;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  color: #efd1d1;
+  background-image: url(https://i.imgur.com/Kw1HLtX.gif);
+  background-color: rgba(255, 255, 255, 0.15);
+  background-position: right center;
+  border: 2px solid #efd1d16b;
+  border-radius: 12px;
+  box-shadow: 0 0 20px 10px #ff909080;
+  -webkit-text-stroke: .25px #ffffff;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #cba1d4;
+}
+
+a:hover {
+  box-shadow: 0 0 50px 5px #ff00ae;
+}
+
+.actions a:hover,
+.action:hover,
+input[type="submit"]:hover {
+  color: #fff;
+  background: rgba(235, 236, 250, 0.64);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 35px 1px rgba(203, 161, 212, 0.44);
+}
+
+ul.actions {
+  padding-bottom: 30px;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #e19fc7;
+  border: 1px solid #c2d2df;
+  margin: 0.643em auto;
+  padding: 0.25em 0.375em;
+  clear: right;
+  box-shadow: inset 1px 1px 2px;
+  border-radius: 0.25em;
+  word-wrap: break-word;
+}
+
+.commas li:has(a.tag,
+a[data-remote="true"]),
+.commas li a.tag {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  line-height: 1.286;
+  font-size: 100%;
+}
+
+.commas li::after {
+  content: none;
+}
+
+.commas:has(a.tag,
+a[data-remote="true"]) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.tag.home .listbox .tags.commas {
+  width: 100%;
+}
+
+.commas li a.tag,
+.tags a[data-remote="true"] {
+  display: inline-block;
+  margin-block: 2.5px;
+  padding: 0.1em 0.5em;
+  border: .5px solid transparent;
+  border-radius: 5px;
+  background: #4c042d40;
+  color: #f1edf7;
+}
+
+div:has(.commas) [class^="warning"] a.tag,
+.tags .warnings a[data-remote="true"] {
+  color: #bb3180;
+  background: rgba(235, 236, 250, 0.64);
+  border: 0px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  column-gap: 5px;
+}
+
+div:has(.commas) [class^="relationship"] a.tag {
+  border: 0px solid rgba(255, 255, 255, 0.2);
+  background-color: #333333a8;
+  color: #eec1dd;
+}
+
+div:has(.commas) [class^="relationship"] a.tag[href*="%20*a*%20"] {
+  background: rgba(255, 255, 255, 0.15);
+  border: 0px solid rgba(255, 255, 255, 0.2);
+  color: #111;
+}
+
+div:has(.commas) [class^="character"] a.tag {
+  border: 0px solid rgba(255, 255, 255, 0.2);
+  background: rgb(161 43 114);
+  color: #e19fc7;
+}
+
+div:has(.commas) [class^="freeform"] a.tag,
+.tags .freeforms a[data-remote="true"] {
+  background: rgb(255 255 255, .28);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: #fff;
+}
+
+.rating.tags a.tag {
+  border-color: none;
+  background-color: #FFD4E6;
+  color: #111;
+}
+
+.category.tags a.tag {
+  border-color: none;
+  background-color: #4c042d;
+  color: #efd1d1;
+}
+
+.fandom.tags a.tag {
+  border-color: none;
+  background-color: #9900008c;
+  color: #fff;
+}
+
+div:has(.commas) a.tag:is(:hover,
+:focus),
+.commas.tags a[data-remote="true"]:is(:hover,
+:focus) {
+  border: 0px solid rgba(255, 255, 255, 0.2);
+  background: rgba(221, 195, 181, 0.35);
+  color: #fff;
+}
+
+#main > div.splash > div.browse.module.odd > h3 {
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
+  color: #8479F3
+    margin: 0;
+}
+
+.splash .module h3 {
+  border-bottom: none;
+  color: #ffaede;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main > div.splash > div.browse.module.odd {
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 5px;
+  color: #8479F3;
+}
+
+.splash .browse li a:before {
+  background: url(https://i.imgur.com/7yLSFps.png);
+  content: "";
+  padding: 0 0 0 0;
+  width: 10px;
+  display: inline-block;
+  height: 14px;
+  background-size: contain;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main > div.splash > div.latest.news.module > h3 {
+  padding: 10px;
+  box-sizing: border-box;
+  color: #eec1dd;
+  margin: 0;
+  background: #c2d2df2b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.splash .news li {
+  border-bottom: none;
+  border-radius: 10px;
+  padding: 10px;
+  background: #c2d2df2b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 100px;
+  background: url("https://i.imgur.com/yMV1wwX.png");
+  background-size: 80px 75px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+#main > div.splash > div.random.readings.module.odd > h3 {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #eec1dd;
+  background: #d1e1ef2e;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+#main > div.splash > div.social.module {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #d1e1ef2e;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.social.module p {
+  padding-left: 83px;
+  background: url("https://i.imgur.com/BqaW535.png");
+  background-size: 65px 65px;
+  background-position-x: left top;
+  background-repeat: no-repeat;
+}
+
+#main > div.splash > div.social.module > h3 {
+  color: #b71772;
+  margin: 0;
+}
+
+li.blurb,
+.blurb .blurb,
+.comment span.unreviewed {
+  background: #efd1d136;
+  box-shadow: none;
+}
+
+.resp-sharing-button--bluesky {
+  background-color: #ffffff !important;
+  border-color: #ffffff;
+  color: #d4b6d6 !important;
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #e19fc7 !important;
+  border-color: #fff !important;
+}
+
+.reading h4.viewed {
+  border-radius: 10px;
+  background: #531839a8;
+  border: 1px solid #65314e;
+  box-shadow: none;
+}
+
+.picture .header {
+  border-bottom: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.logged-in .splash > div:nth-of-type(odd) {
+  background: #e19fc763;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #4c042d;
+}
+
+a.tag {
+  color: #d1efef;
+  line-height: 1.5;
+  text-decoration: none;
+  padding: 0;
+  border-bottom: 1px dotted;
+  text-shadow: 0 0 10px #fff;
+}
+
+input[type="submit"] {
+  height: auto;
+  white-space: normal;
+  background: #e19fc736;
+  color: #fffdfc;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #efd1d1;
+  vertical-align: bottom;
+  text-shadow: 0 0 10px #fff, 0 0 20px #4c042d;
+}
+
+a,
+a:link {
+  color: #c13a8d;
+  text-decoration: none;
+  text-shadow: 0 0 2px #e19fc7;
+}
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  font-size: 100%;
+  background: rgb(207 72 154);
+  border: 2px solid #dddddd4d;
+  padding: 0.5em;
+  box-shadow: 1px 2px 3px #999;
+  opacity: 1;
+}
+
+fieldset fieldset,
+fieldset dl dl,
+form blockquote.userstuff {
+  background: #4c042da8;
+}
+
+#dashboard::before {
+  content: url("https://i.imgur.com/vmiQXpN.png");
+  display: flex;
+}
+
+form.filters::after {
+  content: url("https://i.imgur.com/k7tOkAv.png");
+  display: flex;
+  justify-content: center;
+}
+
+#main > ul.skin.picture.index.group > li:nth-child(odd) > div > div {
+  background: url(https://i.imgur.com/w9HLJWv.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255,0,116,0.6) inset,
+            0 0 10px 2px rgba(197,53,171,0.5) inset,
+            0 0 15px 4px rgba(255,204,252,0.4) inset,
+            5px 5px 5px rgba(223,94,192,0.2);
+}
+
+#main > ul.skin.picture.index.group > li:nth-child(even) > div > div {
+  background: url(https://i.imgur.com/j69ABug.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255,0,116,0.6) inset,
+            0 0 10px 2px rgba(197,53,171,0.5) inset,
+            0 0 15px 4px rgba(255,204,252,0.4) inset,
+            5px 5px 5px rgba(223,94,192,0.2);
+}
+
+.skins .primary .icon {
+  background: url(https://i.imgur.com/hj2JSPe.jpeg);
+  background-size: cover;
+}
+
+.comment .icon .visitor {
+  background: url(https://i.imgur.com/lBvglmw.png);
+  background-size: cover;
+  display: block;
+}
