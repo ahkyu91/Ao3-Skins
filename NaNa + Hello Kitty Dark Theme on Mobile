@@ -1,0 +1,35 @@
+#workskin img {
+  max-width: 100%;
+  height: auto;
+}
+
+#outer {
+  font-size: 14px;
+}
+
+.home .header h2::after {
+  font-size: .75em;
+  letter-spacing: -0.4px;
+}
+
+.wrapper:has(> table,
+> .meta) {
+  max-height: 150px;
+  background: #efd1d136;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  scrollbar-color: #E19FC7 rgba(76, 4, 45, 0.5);
+}
+
+textarea {
+  background-size: 50%;
+}
+
+.home .header ul.actions {
+  padding-top: 60px;
+}
+
+.home .primary {
+  margin-top: 20px;
+}
