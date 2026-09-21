@@ -543,7 +543,7 @@ li.comment {
 
 textarea {
   min-height: 12em;
-  background: url(https://i.imgur.com/hsMxuwe.png) #e19fc7;
+  background: url(https://i.imgur.com/OpdmUeA.png) #e19fc7;
   background-size: 25%;
 }
 
